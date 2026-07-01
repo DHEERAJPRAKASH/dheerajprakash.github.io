@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="profile.jpg">
+    <link rel="apple-touch-icon" href="profile.jpg">
     <title>Dheeraj Prakash S - Full Stack Software Engineer</title>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Orbitron:wght@400;700;900&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --primary: #00ff88;
@@ -40,7 +45,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: 
+            background-image:
                 linear-gradient(var(--grid-color) 1px, transparent 1px),
                 linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
             background-size: 50px 50px;
@@ -50,8 +55,13 @@
         }
 
         @keyframes gridMove {
-            0% { transform: translateY(0); }
-            100% { transform: translateY(50px); }
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(50px);
+            }
         }
 
         /* Gradient Orbs */
@@ -92,9 +102,19 @@
         }
 
         @keyframes float {
-            0%, 100% { transform: translate(0, 0) scale(1); }
-            33% { transform: translate(50px, -50px) scale(1.1); }
-            66% { transform: translate(-30px, 30px) scale(0.9); }
+
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            33% {
+                transform: translate(50px, -50px) scale(1.1);
+            }
+
+            66% {
+                transform: translate(-30px, 30px) scale(0.9);
+            }
         }
 
         /* Navigation */
@@ -192,6 +212,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -726,7 +747,7 @@
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 1.5rem;
         }
-        
+
         .cert-card {
             background: var(--bg-secondary);
             border: 1px solid rgba(0, 255, 136, 0.2);
@@ -1001,6 +1022,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Background Elements -->
     <div class="grid-bg"></div>
@@ -1033,7 +1055,10 @@
             <div class="glitch">FULL STACK SOFTWARE ENGINEER</div>
             <h1>DHEERAJ<br>PRAKASH S</h1>
             <h2>Architecting Intelligent Systems with AI & Scalable Backends</h2>
-            <p>Full Stack Software Engineer with 3+ years of experience building enterprise-grade web applications using FastAPI, Django, React, and Next.js. Specialized in AI-powered backend services, multi-tenant architectures, and high-performance distributed systems. MBA in Finance with a unique blend of technical expertise and business acumen.</p>
+            <p>Full Stack Software Engineer with 3+ years of experience building enterprise-grade web applications using
+                FastAPI, Django, React, and Next.js. Specialized in AI-powered backend services, multi-tenant
+                architectures, and high-performance distributed systems. MBA in Finance with a unique blend of technical
+                expertise and business acumen.</p>
             <div class="cta-buttons">
                 <a href="#contact" class="btn btn-primary">GET IN TOUCH</a>
                 <a href="#projects" class="btn btn-secondary">VIEW PROJECTS</a>
@@ -1047,10 +1072,21 @@
         <p class="section-subtitle">Building the future, one line of code at a time</p>
         <div class="about-content">
             <div class="about-text">
-                <p>I'm a passionate Full Stack Software Engineer specializing in building scalable, high-performance web applications and AI-powered backend systems. With expertise spanning FastAPI, Django, React, and Next.js, I architect enterprise solutions that combine technical excellence with real business impact.</p>
-                <p>Currently at Mallow Technologies, I'm developing multi-tenant SaaS platforms, designing event-driven microservices with AWS, and building RAG (Retrieval Augmented Generation) systems that leverage LLMs for intelligent automation. My work includes seller analytics platforms processing real-time data, rebate management systems handling complex financial workflows, and corporate transport solutions serving thousands of users.</p>
-                <p>What sets me apart is my MBA in Finance, which allows me to bridge engineering decisions with business strategy, product economics, and long-term growth. I don't just write code—I build solutions that drive measurable value.</p>
-                <p>When I'm not architecting systems or optimizing APIs, you'll find me exploring cutting-edge AI technologies, contributing to open-source projects, or mentoring junior developers in full-stack development.</p>
+                <p>I'm a passionate Full Stack Software Engineer specializing in building scalable, high-performance web
+                    applications and AI-powered backend systems. With expertise spanning FastAPI, Django, React, and
+                    Next.js, I architect enterprise solutions that combine technical excellence with real business
+                    impact.</p>
+                <p>Currently at Mallow Technologies, I'm developing multi-tenant SaaS platforms, designing event-driven
+                    microservices with AWS, and building RAG (Retrieval Augmented Generation) systems that leverage LLMs
+                    for intelligent automation. My work includes seller analytics platforms processing real-time data,
+                    rebate management systems handling complex financial workflows, and corporate transport solutions
+                    serving thousands of users.</p>
+                <p>What sets me apart is my MBA in Finance, which allows me to bridge engineering decisions with
+                    business strategy, product economics, and long-term growth. I don't just write code—I build
+                    solutions that drive measurable value.</p>
+                <p>When I'm not architecting systems or optimizing APIs, you'll find me exploring cutting-edge AI
+                    technologies, contributing to open-source projects, or mentoring junior developers in full-stack
+                    development.</p>
             </div>
             <div class="stats-grid">
                 <div class="stat-card">
@@ -1165,22 +1201,33 @@
                     <li class="project-group">
                         <div class="project-title">Amazon Seller Platform</div>
                         <ul class="project-bullets">
-                            <li>Scaled and enhanced a multi-tenant analytics backend using <strong>FastAPI</strong> and PostgreSQL, optimizing real-time data processing capabilities to support 5,000+ active sellers.</li>
-                            <li>Integrated event-driven architectures leveraging <strong>AWS SQS, SNS, and Lambda</strong> to streamline existing machine learning pipelines, successfully reducing data processing latency by 45%.</li>
+                            <li>Scaled and enhanced a multi-tenant analytics backend using <strong>FastAPI</strong> and
+                                PostgreSQL, optimizing real-time data processing capabilities to support 5,000+ active
+                                sellers.</li>
+                            <li>Integrated event-driven architectures leveraging <strong>AWS SQS, SNS, and
+                                    Lambda</strong> to streamline existing machine learning pipelines, successfully
+                                reducing data processing latency by 45%.</li>
                         </ul>
                     </li>
                     <li class="project-group">
                         <div class="project-title">Rebate and Incentives Calculations App</div>
                         <ul class="project-bullets">
-                            <li>Advanced the backend infrastructure of a complex enterprise platform using <strong>Django</strong> and <strong>Next.js</strong>, optimizing financial workflows and incentive calculations for 50+ global distributors.</li>
-                            <li>Strengthened Role-Based Access Control (RBAC) and multi-tenant data isolation, ensuring strict compliance and enhancing data security across parallel enterprise environments.</li>
+                            <li>Advanced the backend infrastructure of a complex enterprise platform using
+                                <strong>Django</strong> and <strong>Next.js</strong>, optimizing financial workflows and
+                                incentive calculations for 50+ global distributors.</li>
+                            <li>Strengthened Role-Based Access Control (RBAC) and multi-tenant data isolation, ensuring
+                                strict compliance and enhancing data security across parallel enterprise environments.
+                            </li>
                         </ul>
                     </li>
                     <li class="project-group">
                         <div class="project-title">AI & Core Infrastructure Optimization</div>
                         <ul class="project-bullets">
-                            <li>Integrated production-grade Retrieval-Augmented Generation (RAG) pipelines with LLMs into existing core systems, accelerating contextual knowledge retrieval and automating complex workflows.</li>
-                            <li>Decreased core API response times by 60% through the implementation of asynchronous endpoints, advanced caching layers, and optimized PostgreSQL indexing strategies.</li>
+                            <li>Integrated production-grade Retrieval-Augmented Generation (RAG) pipelines with LLMs
+                                into existing core systems, accelerating contextual knowledge retrieval and automating
+                                complex workflows.</li>
+                            <li>Decreased core API response times by 60% through the implementation of asynchronous
+                                endpoints, advanced caching layers, and optimized PostgreSQL indexing strategies.</li>
                         </ul>
                     </li>
                 </ul>
@@ -1193,15 +1240,23 @@
                     <li class="project-group">
                         <div class="project-title">Ola-Like Corporate Taxi Management System</div>
                         <ul class="project-bullets">
-                            <li>Enhanced and scaled a dynamic full-stack corporate transport application using <strong>Node.js, Express, MongoDB, and React</strong>, optimizing it to reliably process 10,000+ monthly ride schedules.</li>
-                            <li>Refined existing RESTful APIs for real-time GPS tracking and dynamic fare computation, further eliminating manual bottlenecks and reducing paper-based coordination overhead by 85%.</li>
+                            <li>Enhanced and scaled a dynamic full-stack corporate transport application using
+                                <strong>Node.js, Express, MongoDB, and React</strong>, optimizing it to reliably process
+                                10,000+ monthly ride schedules.</li>
+                            <li>Refined existing RESTful APIs for real-time GPS tracking and dynamic fare computation,
+                                further eliminating manual bottlenecks and reducing paper-based coordination overhead by
+                                85%.</li>
                         </ul>
                     </li>
                     <li class="project-group">
                         <div class="project-title">Google Drive-Like Cloud Storage App</div>
                         <ul class="project-bullets">
-                            <li>Improved a robust file management platform leveraging <strong>Django</strong> and <strong>React</strong>, upgrading secure backend hierarchy rules, drag-and-drop mechanisms, and collaborative file permission workflows.</li>
-                            <li>Optimized database queries and integrated advanced React state management techniques, boosting backend throughput by 75% and accelerating frontend rendering speeds by 95%.</li>
+                            <li>Improved a robust file management platform leveraging <strong>Django</strong> and
+                                <strong>React</strong>, upgrading secure backend hierarchy rules, drag-and-drop
+                                mechanisms, and collaborative file permission workflows.</li>
+                            <li>Optimized database queries and integrated advanced React state management techniques,
+                                boosting backend throughput by 75% and accelerating frontend rendering speeds by 95%.
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -1214,8 +1269,10 @@
                     <li class="project-group">
                         <div class="project-title">CRM & Full-Stack Development</div>
                         <ul class="project-bullets">
-                            <li>Expanded automated test suites for an enterprise CRM platform, achieving 82% code coverage and resolving 30+ critical bugs prior to production release.</li>
-                            <li>Enhanced foundational full-stack modules using the MERN stack (React.js, Node.js, MongoDB), contributing to a 15% acceleration in team feature delivery timelines.</li>
+                            <li>Expanded automated test suites for an enterprise CRM platform, achieving 82% code
+                                coverage and resolving 30+ critical bugs prior to production release.</li>
+                            <li>Enhanced foundational full-stack modules using the MERN stack (React.js, Node.js,
+                                MongoDB), contributing to a 15% acceleration in team feature delivery timelines.</li>
                         </ul>
                     </li>
                 </ul>
@@ -1228,11 +1285,37 @@
         <h2 class="section-title">FEATURED PROJECTS</h2>
         <p class="section-subtitle">Solutions that made a difference</p>
         <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Brand Guardian - Compliance QA Pipeline</h3>
+                    <div class="project-date">Recent Project</div>
+                    <p>Built an automated brand compliance auditing system for YouTube ads using Azure Video Indexer for
+                        transcript/OCR extraction and a LangGraph-orchestrated RAG pipeline to check content against
+                        regulatory rules stored in Azure AI Search. Exposed as both a CLI tool and a FastAPI REST
+                        service with Application Insights telemetry.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">LangGraph</span>
+                        <span class="tech-tag">Azure OpenAI</span>
+                        <span class="tech-tag">Azure AI Search</span>
+                        <span class="tech-tag">Azure Video Indexer</span>
+                        <span class="tech-tag">RAG</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/DHEERAJPRAKASH/dheerajprakash.github.io"
+                            target="_blank" class="project-link">VIEW CODE</a>
+                    </div>
+                </div>
+            </div>
+
             <div class="project-card">
                 <div class="project-content">
                     <h3>Django Multi-Agent AI Chatbot</h3>
                     <div class="project-date">Recent Project</div>
-                    <p>Integrated a sophisticated multi-agent AI framework (Supervisor, Researcher, Analyst, Writer) into an existing Django application using LangGraph. Enhanced real-time chat interfaces, session management, and collaborative problem-solving capabilities.</p>
+                    <p>Integrated a sophisticated multi-agent AI framework (Supervisor, Researcher, Analyst, Writer)
+                        into an existing Django application using LangGraph. Enhanced real-time chat interfaces, session
+                        management, and collaborative problem-solving capabilities.</p>
                     <div class="project-tech">
                         <span class="tech-tag">Django</span>
                         <span class="tech-tag">LangChain</span>
@@ -1241,7 +1324,8 @@
                         <span class="tech-tag">AI Agents</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/DHEERAJPRAKASH/Supervision_Multi_Agent_Architecutre_Based_Chatbot" target="_blank" class="project-link">VIEW CODE</a>
+                        <a href="https://github.com/DHEERAJPRAKASH/Supervision_Multi_Agent_Architecutre_Based_Chatbot"
+                            target="_blank" class="project-link">VIEW CODE</a>
                     </div>
                 </div>
             </div>
@@ -1250,7 +1334,9 @@
                 <div class="project-content">
                     <h3>LangGraph Research Chatbot</h3>
                     <div class="project-date">Recent Project</div>
-                    <p>Upgraded a research platform by integrating a LangGraph-powered chatbot with Tavily and arXiv tools. Optimized persistent chat sessions, real-time typing indicators, and improved seamless tool orchestration workflows.</p>
+                    <p>Upgraded a research platform by integrating a LangGraph-powered chatbot with Tavily and arXiv
+                        tools. Optimized persistent chat sessions, real-time typing indicators, and improved seamless
+                        tool orchestration workflows.</p>
                     <div class="project-tech">
                         <span class="tech-tag">Django</span>
                         <span class="tech-tag">LangGraph</span>
@@ -1259,7 +1345,8 @@
                         <span class="tech-tag">RAG</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/DHEERAJPRAKASH/langgraph-chatbot" target="_blank" class="project-link">VIEW CODE</a>
+                        <a href="https://github.com/DHEERAJPRAKASH/langgraph-chatbot" target="_blank"
+                            class="project-link">VIEW CODE</a>
                     </div>
                 </div>
             </div>
@@ -1268,7 +1355,9 @@
                 <div class="project-content">
                     <h3>Parkinson's Disease Progression Prediction</h3>
                     <div class="project-date">Mar 2023 – May 2023</div>
-                    <p>Refined ensemble machine learning models (Random Forest, Lasso, SVR, XGBoost, LGBM) for predicting Parkinson's disease progression. Optimized training pipelines on complex patient protein and clinical datasets containing UPDRS scores.</p>
+                    <p>Refined ensemble machine learning models (Random Forest, Lasso, SVR, XGBoost, LGBM) for
+                        predicting Parkinson's disease progression. Optimized training pipelines on complex patient
+                        protein and clinical datasets containing UPDRS scores.</p>
                     <div class="project-tech">
                         <span class="tech-tag">Python</span>
                         <span class="tech-tag">Scikit-Learn</span>
@@ -1277,7 +1366,8 @@
                         <span class="tech-tag">Pandas</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/DHEERAJPRAKASH/PARKINSON_PROGRESSION_PREDICTION_SYSTEM" target="_blank" class="project-link">VIEW CODE</a>
+                        <a href="https://github.com/DHEERAJPRAKASH/PARKINSON_PROGRESSION_PREDICTION_SYSTEM"
+                            target="_blank" class="project-link">VIEW CODE</a>
                     </div>
                 </div>
             </div>
@@ -1286,7 +1376,9 @@
                 <div class="project-content">
                     <h3>IoT Smart Crop Monitoring System</h3>
                     <div class="project-date">Sep 2022 – Nov 2022</div>
-                    <p>Enhanced an IBM-powered IoT system designed to protect crops. Improved real-time animal detection algorithms and streamlined remote control workflows for electrical loads via Raspberry Pi and IBM Cloud services.</p>
+                    <p>Enhanced an IBM-powered IoT system designed to protect crops. Improved real-time animal detection
+                        algorithms and streamlined remote control workflows for electrical loads via Raspberry Pi and
+                        IBM Cloud services.</p>
                     <div class="project-tech">
                         <span class="tech-tag">Raspberry Pi</span>
                         <span class="tech-tag">Python CV</span>
@@ -1301,7 +1393,8 @@
                 <div class="project-content">
                     <h3>Job Tracker</h3>
                     <div class="project-date">Jan 2022 – Feb 2022</div>
-                    <p>The Job Tracker built with the MERN stack (MongoDB, Express, React, Node.js) is a web application that allows users to track and manage job applications.</p>
+                    <p>The Job Tracker built with the MERN stack (MongoDB, Express, React, Node.js) is a web application
+                        that allows users to track and manage job applications.</p>
                     <div class="project-tech">
                         <span class="tech-tag">React</span>
                         <span class="tech-tag">Node.js</span>
@@ -1309,7 +1402,8 @@
                         <span class="tech-tag">MongoDB</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/DHEERAJPRAKASH/JOB_TRACKER" target="_blank" class="project-link">VIEW CODE</a>
+                        <a href="https://github.com/DHEERAJPRAKASH/JOB_TRACKER" target="_blank"
+                            class="project-link">VIEW CODE</a>
                     </div>
                 </div>
             </div>
@@ -1318,7 +1412,9 @@
                 <div class="project-content">
                     <h3>Passport Automation System</h3>
                     <div class="project-date">Nov 2021 – Dec 2021</div>
-                    <p>Upgraded a passport application and verification system using React and Django. Streamlined the three-step verification process and enhanced role-based authentication architectures using Django REST Framework.</p>
+                    <p>Upgraded a passport application and verification system using React and Django. Streamlined the
+                        three-step verification process and enhanced role-based authentication architectures using
+                        Django REST Framework.</p>
                     <div class="project-tech">
                         <span class="tech-tag">React</span>
                         <span class="tech-tag">Django</span>
@@ -1326,7 +1422,8 @@
                         <span class="tech-tag">SQLite</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/DHEERAJPRAKASH/PASSPORT_AUTOMATION_SYSTEM" target="_blank" class="project-link">VIEW CODE</a>
+                        <a href="https://github.com/DHEERAJPRAKASH/PASSPORT_AUTOMATION_SYSTEM" target="_blank"
+                            class="project-link">VIEW CODE</a>
                     </div>
                 </div>
             </div>
@@ -1335,7 +1432,9 @@
                 <div class="project-content">
                     <h3>Enhanced Stock Management System</h3>
                     <div class="project-date">Feb 2021 – Apr 2021</div>
-                    <p>Improved a production-grade inventory management system at Anil Products. Optimized the Java Swing frontend and restructured database schemas for significantly faster daily, monthly, and yearly GST-compliant reporting.</p>
+                    <p>Improved a production-grade inventory management system at Anil Products. Optimized the Java
+                        Swing frontend and restructured database schemas for significantly faster daily, monthly, and
+                        yearly GST-compliant reporting.</p>
                     <div class="project-tech">
                         <span class="tech-tag">Java</span>
                         <span class="tech-tag">Java Swing</span>
@@ -1343,7 +1442,8 @@
                         <span class="tech-tag">GST</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/DHEERAJPRAKASH/STOCK_MANAGEMENT_SYSTEM" target="_blank" class="project-link">VIEW CODE</a>
+                        <a href="https://github.com/DHEERAJPRAKASH/STOCK_MANAGEMENT_SYSTEM" target="_blank"
+                            class="project-link">VIEW CODE</a>
                     </div>
                 </div>
             </div>
@@ -1379,63 +1479,111 @@
         <h2 class="section-title">PROFESSIONAL CERTIFICATIONS</h2>
         <p class="section-subtitle">Continuous learning and skill validation</p>
         <div class="certs-grid">
-            <a href="https://www.coursera.org/account/accomplishments/verify/B89F6KD90P8P?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank" class="cert-card">
+            <a href="https://www.coursera.org/account/accomplishments/verify/B89F6KD90P8P?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                target="_blank" class="cert-card">
                 <div class="cert-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                        <rect x="9" y="9" width="6" height="6"></rect>
+                        <line x1="9" y1="1" x2="9" y2="4"></line>
+                        <line x1="15" y1="1" x2="15" y2="4"></line>
+                        <line x1="9" y1="20" x2="9" y2="23"></line>
+                        <line x1="15" y1="20" x2="15" y2="23"></line>
+                        <line x1="20" y1="9" x2="23" y2="9"></line>
+                        <line x1="20" y1="14" x2="23" y2="14"></line>
+                        <line x1="1" y1="9" x2="4" y2="9"></line>
+                        <line x1="1" y1="14" x2="4" y2="14"></line>
+                    </svg>
                 </div>
                 <div class="cert-info">
                     <h4>Machine Learning</h4>
                     <p>Stanford University (Coursera)</p>
                 </div>
             </a>
-            <a href="https://www.udemy.com/certificate/UC-2bd5aa21-b488-451e-a48a-dc553a089dab/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email" target="_blank" class="cert-card">
+            <a href="https://www.udemy.com/certificate/UC-2bd5aa21-b488-451e-a48a-dc553a089dab/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email"
+                target="_blank" class="cert-card">
                 <div class="cert-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="4 17 10 11 4 5"></polyline>
+                        <line x1="12" y1="19" x2="20" y2="19"></line>
+                    </svg>
                 </div>
                 <div class="cert-info">
                     <h4>Machine Learning & Deep Learning with Python & R</h4>
                     <p>Udemy</p>
                 </div>
             </a>
-            <a href="https://cloud.contentraven.com/crdownloadfiles/index.aspx?act=8MH4sSWyowEaN0eXRAsy+A__&id=yXjAY0t6gcA_" target="_blank" class="cert-card">
+            <a href="https://cloud.contentraven.com/crdownloadfiles/index.aspx?act=8MH4sSWyowEaN0eXRAsy+A__&id=yXjAY0t6gcA_"
+                target="_blank" class="cert-card">
                 <div class="cert-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path
+                            d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                        </path>
+                    </svg>
                 </div>
                 <div class="cert-info">
                     <h4>RPA Citizen Developer Foundation</h4>
                     <p>UiPath</p>
                 </div>
             </a>
-            <a href="https://certificate.givemycertificate.com/c/d9b0e4d6-d091-46b9-960f-a05b5e43c6ed" target="_blank" class="cert-card">
+            <a href="https://certificate.givemycertificate.com/c/d9b0e4d6-d091-46b9-960f-a05b5e43c6ed" target="_blank"
+                class="cert-card">
                 <div class="cert-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="3" y1="9" x2="21" y2="9"></line>
+                        <line x1="9" y1="21" x2="9" y2="9"></line>
+                    </svg>
                 </div>
                 <div class="cert-info">
                     <h4>Full Stack Web Development</h4>
                     <p>Inlustro</p>
                 </div>
             </a>
-            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_ziSZNLom2hzwwjMs3_1648906304557_completion_certificate.pdf" target="_blank" class="cert-card">
+            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_ziSZNLom2hzwwjMs3_1648906304557_completion_certificate.pdf"
+                target="_blank" class="cert-card">
                 <div class="cert-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
                 </div>
                 <div class="cert-info">
                     <h4>Software Engineering Virtual Experience</h4>
                     <p>JPMorgan Chase</p>
                 </div>
             </a>
-            <a href="https://drive.google.com/file/d/16h28G6pOZpxipdIv08B2wUCBOWbZL130/view" target="_blank" class="cert-card">
+            <a href="https://drive.google.com/file/d/16h28G6pOZpxipdIv08B2wUCBOWbZL130/view" target="_blank"
+                class="cert-card">
                 <div class="cert-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path
+                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                        </path>
+                    </svg>
                 </div>
                 <div class="cert-info">
                     <h4>Geoprocessing with Python</h4>
                     <p>ISRO / IIRS</p>
                 </div>
             </a>
-            <a href="https://drive.google.com/file/d/1S4oR63ercoNrxyjpDe2hU-eqWtIrVqnA/view" target="_blank" class="cert-card">
+            <a href="https://drive.google.com/file/d/1S4oR63ercoNrxyjpDe2hU-eqWtIrVqnA/view" target="_blank"
+                class="cert-card">
                 <div class="cert-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                    </svg>
                 </div>
                 <div class="cert-info">
                     <h4>Cloud Computing</h4>
@@ -1491,7 +1639,8 @@
                     <div class="contact-icon">💼</div>
                     <div class="contact-details">
                         <h4>LINKEDIN</h4>
-                        <p><a href="https://linkedin.com/in/dheeraj-prakash-s" target="_blank">linkedin.com/in/dheeraj-prakash-s</a></p>
+                        <p><a href="https://linkedin.com/in/dheeraj-prakash-s"
+                                target="_blank">linkedin.com/in/dheeraj-prakash-s</a></p>
                     </div>
                 </div>
             </div>
@@ -1502,16 +1651,35 @@
     <footer>
         <div class="social-links">
             <a href="https://github.com/dheerajprakash" target="_blank" class="social-link" title="GitHub">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.02c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.02c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                    </path>
+                </svg>
             </a>
             <a href="https://linkedin.com/in/dheeraj-prakash-s" target="_blank" class="social-link" title="LinkedIn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                </svg>
             </a>
             <a href="mailto:dheerajprakash021@gmail.com" class="social-link" title="Email">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
             </a>
             <a href="tel:+919698594605" class="social-link" title="Phone">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                    </path>
+                </svg>
             </a>
         </div>
         <p>&copy; 2026 Dheeraj Prakash S. All rights reserved. Built with passion, powered by code.</p>
@@ -1544,19 +1712,19 @@
         });
 
         // Form submission handler
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
             e.preventDefault();
-            
+
             // Get form values
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
             const message = document.getElementById('message').value;
-            
+
             // Create mailto link
             const subject = encodeURIComponent(`Portfolio Contact from ${name}`);
             const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
             window.location.href = `mailto:dheerajprakash021@gmail.com?subject=${subject}&body=${body}`;
-            
+
             // Show success message
             alert('Thank you for reaching out! Your default email client will open to send the message.');
             this.reset();
@@ -1568,7 +1736,7 @@
             rootMargin: '0px 0px -50px 0px'
         };
 
-        const observer = new IntersectionObserver(function(entries) {
+        const observer = new IntersectionObserver(function (entries) {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.style.opacity = '1';
@@ -1589,7 +1757,7 @@
         window.addEventListener('scroll', () => {
             let current = '';
             const sections = document.querySelectorAll('section');
-            
+
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
                 const sectionHeight = section.clientHeight;
@@ -1607,4 +1775,5 @@
         });
     </script>
 </body>
+
 </html>
